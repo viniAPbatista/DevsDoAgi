@@ -35,7 +35,7 @@ public class Correlacao {
     public static float calcularCorrelacao(float[] serie1, float[] serie2) {
         float correlacao = 0;
 
-
+        //teste comentario github
 
         return correlacao;
     }
