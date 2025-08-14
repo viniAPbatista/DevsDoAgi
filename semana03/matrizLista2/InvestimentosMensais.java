@@ -28,7 +28,7 @@ public class InvestimentosMensais {
         System.out.printf("Quanfo fundo voce deseja ver a rentabilidade: ");
         fundo = sc.nextInt();
 
-        rentabilidade = rentabilidade(investimento, fundo);
+        rentabilidade = rentabilidade(investimento, fundo - 1);
         System.out.println("Rentabilidade: " + rentabilidade);
 
         fundoMaisRentavel = fundoMaisRentavel(investimento);
@@ -46,6 +46,22 @@ public class InvestimentosMensais {
     }
 
     public static int fundoMaisRentavel(float [][] investimentos) {
+        int i, posicao = 0;
+        float [] rentabilidadeTodos = new float[investimentos.length];
+        float rentabilidade, maior = Float.NEGATIVE_INFINITY;
 
+        for(i = 0; i < investimentos.length; i++) {
+            rentabilidade = ((investimentos[i][investimentos[0].length - 1] - investimentos[i][0]) / investimentos[i][0]) * 100;
+            rentabilidadeTodos[i] = rentabilidade;
+            rentabilidade = 0;
+        }
+
+        for(i = 0; i < rentabilidadeTodos.length; i++) {
+            if(rentabilidadeTodos[i] > maior){
+                maior = rentabilidadeTodos[i];
+                posicao = i;
+            }
+        }
+        return posicao + 1;
     }
 }
