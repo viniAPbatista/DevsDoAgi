@@ -1,3 +1,3 @@
-# Devs Do Agi
+# 💻 Devs Do Agi
 
-Repositório destinado às atividades em JAVA desenvolvidas durante o Programa Devs do Agi.
+📁 Repositório dedicado às atividades e projetos desenvolvidos em **Java** durante o Programa Devs do Agi, com foco em aprendizado prático, boas práticas de programação e evolução contínua.
