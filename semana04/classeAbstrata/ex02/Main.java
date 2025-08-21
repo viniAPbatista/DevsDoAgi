@@ -10,6 +10,9 @@ public class Main {
 
         System.out.println(c1.getLimite());
 
-        c2.setSaldo(1000);
+        ((CartaoDebito) c2).setSaldo(1000);
+        c2.processarCompra(500);
+
+        System.out.println(((CartaoDebito) c2).getSaldo());
     }
 }
