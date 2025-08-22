@@ -100,3 +100,12 @@ public class Main {
         System.out.println("===== OPERACOES FINALIZADAS =====");
     }
 }
+// 1: 10
+// 2: 10
+// 3: 10
+// 4: 20
+// 5: 10
+// 6: 10
+// 7: 10
+// 8: 20
+//Total: 100
