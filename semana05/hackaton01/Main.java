@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         String nome;
         double salario;
 
@@ -50,13 +49,13 @@ public class Main {
         //informacoes gerente utulizandos os getters
         System.out.println("NOME: " + gerente.getNome());
         System.out.println("SALARIO: " + gerente.getSalario());
-        System.out.println("BONUS: " + gerente.getBonus());
+        System.out.println("BONUS: " + ((Gerente) gerente).getBonus());
         System.out.println("\n");
 
         System.out.println("===== INFORMACOES ANALISTA =====");
         //informacoes analista utilizando os getters
         System.out.println("NOME: " + analista.getNome());
         System.out.println("SALARIO: " + analista.getSalario());
-        System.out.println("BONUS: " + analista.getBonus());
+        System.out.println("BONUS: " + ((Analista) analista).getBonus());
     }
 }

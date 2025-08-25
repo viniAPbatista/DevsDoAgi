@@ -4,7 +4,6 @@ public class Funcionario {
     //atributos declarados privados
     private String nome;
     private double salario;
-    private double bonus;
 
     //construtores
     public Funcionario() {
@@ -32,9 +31,5 @@ public class Funcionario {
 
     public void setSalario(double salario) {
         this.salario = salario;
-    }
-
-    public double getBonus() {
-        return bonus;
     }
 }
