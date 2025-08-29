@@ -15,6 +15,10 @@ public class Main {
         feedbacks.add(new Feedback("789", "111", "Produto_pesismo")); //teste erro idCliente
         feedbacks.add(new Feedback("111", "321", "Produto_pesismo")); //teste erro idProduto
 
-        List<Feedback> listaFeedbacks = feedbacks.stream().sorted(Comparator.comparing(Feedback::getIdCliente));
+        List<Feedback> listaFeedbacks = feedbacks.stream().sorted(Comparator.comparing(Feedback::getIdCliente)).toList();
+
+        for(Feedback clientes : listaFeedbacks) {
+            System.out.println(clientes);
+        }
     }
 }

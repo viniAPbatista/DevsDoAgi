@@ -36,4 +36,13 @@ public class Feedback {
     public int hashCode() {
         return Objects.hash(idCliente, idProduto);
     }
+
+    @Override
+    public String toString() {
+        return "Feedback{" +
+                "idCliente='" + idCliente + '\'' +
+                ", idProduto='" + idProduto + '\'' +
+                ", comentario='" + comentario + '\'' +
+                '}';
+    }
 }
