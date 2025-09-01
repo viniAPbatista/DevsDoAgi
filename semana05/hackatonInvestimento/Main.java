@@ -71,3 +71,15 @@ public class Main {
     }
 }
 
+//Funcionalidade – Cadastro de Clientes = 15/15
+//Funcionalidade -  Cadastro de Investimentos = 15/15
+//Funcionalidades - Listagens e Relatórios 10/10
+//Uso de Map 10/10
+//Uso de List 10/10
+//Tratamento de Exceções 10/10
+//Organização do Código 10/10
+//Legibilidade e Nomes 5/5
+//Interação com o Usuário 5/5
+//Comentários e Documentação 10/10
+
+//Nota: 100 pontos
