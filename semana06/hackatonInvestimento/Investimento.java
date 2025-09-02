@@ -1,4 +1,4 @@
-package semana05.hackatonInvestimento;
+package semana06.hackatonInvestimento;
 
 public class Investimento {
     private String tipo;

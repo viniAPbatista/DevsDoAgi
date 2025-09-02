@@ -2,7 +2,7 @@
 //Matheus Reis
 //Luan Dos santos
 
-package semana05.hackatonInvestimento;
+package semana06.hackatonInvestimento;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package semana05.hackatonInvestimento;
+package semana06.hackatonInvestimento;
 
 import java.util.ArrayList;
 
